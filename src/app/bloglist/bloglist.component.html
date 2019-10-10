@@ -1,0 +1,7 @@
+<div class="container">
+  <div class="col-xs-12 col-md-12">
+    <app-blog *ngFor="let blog of blogs;let i= index"
+    [blogi]="blog"
+    [index]="i" style="width: 30%; float: left ;margin: 10px; border: none" ></app-blog>
+  </div>
+</div>

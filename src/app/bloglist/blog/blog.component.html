@@ -1,0 +1,21 @@
+
+<div class="blog" style="padding-top: 70px ; padding-bottom: 70px; padding-right: 20px;padding-left: 20px">
+
+     <div class="row">
+       <div class="col-md-1"><span >
+       <img src="{{blogi.imgpath}}" class="img-responsive" style="max-width:100px; border-radius: 70%">
+     </span></div>
+
+       <div class="col-md-offset-5">
+         <h4 style="font-weight: bold">{{blogi.name}}</h4>
+         <h5> from Rs {{blogi.price}}</h5>
+       </div>
+     </div>
+    <div style="margin: 20px ;color: gray">
+      <p >{{blogi.description}}</p>
+    </div>
+    <div style="margin: 20px">
+      <button (click)="promt()"> Order Now </button>
+    </div>
+  </div>
+

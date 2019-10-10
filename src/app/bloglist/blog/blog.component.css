@@ -1,0 +1,12 @@
+
+.blog:hover{
+  background-color: whitesmoke;
+  border-radius: 20px;
+  color: #76D7C4;
+}
+button {
+  background: rgba(255, 255, 255,0);
+  color: #76D7C4;
+  border: solid 2px #76D7C4;
+  border-radius: 5px;
+}
